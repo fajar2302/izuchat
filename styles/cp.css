@@ -1,0 +1,93 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #cfe2f3 !important;
+}
+/* header .help {
+    border: 1px solid;
+  } */
+
+header .help img {
+  /* border: 1px solid; */
+  width: 30px;
+}
+
+main .capaian {
+  height: 106px;
+  border-radius: 24px !important;
+  box-shadow: -3px 4px rgba(0, 0, 0, 0.3);
+  background-color: #9fc5e8 !important;
+  /* border: 1px solid; */
+}
+.capaian .image img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+
+.capaian .title {
+  padding-top: 9px;
+  /* border: 1px solid; */
+}
+.capaian .title h5 {
+  font-size: 28px;
+}
+
+/* capaian content */
+.capaian-content {
+  padding: 15px;
+  margin-top: 75px;
+  height: 364px !important;
+  box-shadow: -3px 4px rgba(0, 0, 0, 0.3);
+  background-color: #9fc5e8 !important;
+  border-radius: 24px !important;
+}
+.border-content {
+  border: 1px solid;
+  border-radius: 24px;
+  padding: 20px;
+  height: 336px;
+}
+.capaian-content .title h5 {
+  font-size: 24px;
+}
+
+.capaian-content .content {
+  padding-top: 20px;
+}
+
+.capaian-content .content p {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* float btn */
+
+.float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  background-color: #dfe4e7;
+  color: #fff;
+  border: none;
+  border-radius: 20%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+.float-btn .icon img {
+  width: 100%;
+}

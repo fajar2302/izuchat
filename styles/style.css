@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Pacifico&display=swap');
+
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e9faff !important;
+}
+header {
+  padding-bottom: 20px !important;
+  /* border: 1px solid; */
+}
+.navbar {
+  -webkit-box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  background-color: #cde7eb;
+}
+.navbar-brand {
+  font-family: 'Fascinate Inline', system-ui;
+  font-size: 24px !important;
+  color: #3d85c6 !important;
+  /* font-family: 'Pacifico', cursive; */
+}
+
+main {
+  height: 600px;
+}
+
+main .all {
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  background-color: #52b2c8;
+  padding-top: 75px !important;
+  padding-bottom: 75px !important;
+}
+
+/* main .all .col-lg-3 {
+  border: 1px solid;
+} */
+
+header .help img {
+  /* border: 1px solid; */
+  width: 30px;
+}
+
+main .capaian,
+main .materi,
+main .soals,
+main .video {
+  cursor: pointer;
+  width: 162px;
+  height: 200px;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 6px 5px -3px rgba(0, 0, 0, 0.75);
+  background-color: #cde7eb !important;
+}
+.capaian .image img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+.capaian .title {
+  padding-top: 9px;
+}
+.capaian .title h5 {
+  font-size: 24px;
+}
+.materi .image img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+.materi .title {
+  padding-top: 9px;
+}
+.materi .title h5 {
+  font-size: 24px;
+}
+.soals .image img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+.soals .title {
+  padding-top: 9px;
+}
+.soals .title h5 {
+  font-size: 24px;
+}
+.video .image img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+.video .title {
+  padding-top: 9px;
+}
+.video .title h5 {
+  font-size: 24px;
+}
